@@ -91,14 +91,14 @@
     </MenuBar>
     <SplitPane dividerPositions="0.2505567928730512, 0.7505567928730512" focusTraversable="true" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
       <items>
-        <AnchorPane>
+        <AnchorPane prefHeight="518.0" prefWidth="485.0">
           <children>
+                  <ListView editable="true" layoutY="56.0" prefHeight="518.0" prefWidth="222.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
             <Label fx:id="lblTareas" alignment="CENTER" layoutX="14.0" layoutY="14.0" minWidth="58.0" prefHeight="27.0" prefWidth="58.0" style="&#10;" text="Tareas" textAlignment="CENTER" textFill="#2c2b2b" wrapText="false">
               <font>
                 <Font size="18.0" fx:id="x1" />
               </font>
             </Label>
-                  <ListView editable="true" layoutY="56.0" prefHeight="462.0" prefWidth="222.0" />
           </children>
         </AnchorPane>
         <ScrollPane prefHeight="-1.0" prefWidth="-1.0">
