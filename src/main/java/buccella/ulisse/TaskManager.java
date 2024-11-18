@@ -10,7 +10,7 @@ import java.util.List;
  */
 
 public class TaskManager {
-    private List<Task> tasks;
+    private final List<Task> tasks;
 
     public TaskManager() {
         this.tasks = new ArrayList<>();

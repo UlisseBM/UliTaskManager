@@ -1,13 +1,13 @@
 package buccella.ulisse;
 
+import java.io.IOException;
+import java.net.URL;
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-
-import java.io.IOException;
-import java.net.URL;
 
 public class TaskManagerUI extends Application {
 
@@ -35,7 +35,6 @@ public class TaskManagerUI extends Application {
             stage.setScene(scene);
             stage.show();
         } catch (IOException e) {
-            e.printStackTrace();
             // Manejar el error en caso de que no se pueda cargar el FXML
             System.out.println("Error al cargar el archivo FXML.");
         }
